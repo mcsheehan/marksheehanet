@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {TitledArwes} from './App';
 import * as serviceWorker from './serviceWorker';
+import Opening from './Opening';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Opening />
   </React.StrictMode>,
   document.getElementById('root')
 );
