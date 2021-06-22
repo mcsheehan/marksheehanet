@@ -15,9 +15,10 @@ const StyledContainer = styled.div`
 `;
 
 const Nav = () => (
-        <ul>
-            <li><Link to="/opening">Launch</Link></li>
-        </ul>
+    <div className="Header">
+        <Link to="/opening">Launch</Link> &nbsp;
+        <Link to="/pokemon/">Pokemon</Link>
+    </div>
 );
 
 const HomePage = () => <h1>Home Page</h1>;
@@ -33,7 +34,6 @@ class App extends Component {
                     <Nav />
                     <Route path="/" component={HomePage} />
                     <Route path="/opening" component={Opening} />
-                    <Route path="/pokemon" />
                 </div>
             </Router>
         );

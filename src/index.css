@@ -1,13 +1,21 @@
-/*body {*/
-/*  margin: 0;*/
-/*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
-/*    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
-/*    sans-serif;*/
-/*  -webkit-font-smoothing: antialiased;*/
-/*  -moz-osx-font-smoothing: grayscale;*/
-/*}*/
+@font-face {
+    font-family: 'SFDistantGalaxyOutline';
+    src: url(./pages/Opening/SFDistantGalaxyOutline.ttf);
+}
 
-/*code {*/
-/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
-/*    monospace;*/
-/*}*/
+.Header{
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    -webkit-text-stroke: 3.5px #ffcb05;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-family: 'SFDistantGalaxyOutline';
+    font-size: 25px;
+    color: #ffcb05;
+}
