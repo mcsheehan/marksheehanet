@@ -22,7 +22,6 @@ const Nav = () => (
 
 const HomePage = () => <h1>Home Page</h1>;
 
-
 class App extends Component {
     componentDidMount() {
         document.title = 'Hello everyone I\'m Mark Sheehan';
@@ -34,6 +33,7 @@ class App extends Component {
                     <Nav />
                     <Route path="/" component={HomePage} />
                     <Route path="/opening" component={Opening} />
+                    <Route path="/pokemon" />
                 </div>
             </Router>
         );

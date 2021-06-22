@@ -1,0 +1,18 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.1
+  aws-s3: circleci/aws-s3@2.0
+
+workflows:
+  sample:
+    jobs:
+      - node/test:
+          version: '15.1'
+          post-steps:
+            - run: CI='' npm run build
+            - aws-s3/copy:
+                from: build/
+                to: s3://marksheehan.net
+                arguments: --recursive
+          context: aws-deployment

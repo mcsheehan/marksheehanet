@@ -14,21 +14,22 @@ const subtitle = "THE SHEEHAN MENACE";
 const content = <React.Fragment>
     <p>Badgers have invaded <b>the</b> planet causing turmoil in their wake.</p>
     <p>Legendary heroes have arisen to combat the badgers by getting ripped</p>
-    <p>Getting ripped will help increase their core strength state and eschew the badgers into the void of chaos.</p>
+    <p>These ripped heroes will use their powers of github and instantgram to increase their core strength state and
+        eschew the badgers into the void of chaos.</p>
     <p>Help us Mark Sheehan you are kewl and you getting your core strength stat to 18 is our only hope</p>
     <p>.</p>
     <p>.</p>
+    <p>This is really a bit of an oversell for a portfolio website</p>
     <p>.</p>
     <p>.</p>
     <p>.</p>
     <p>.</p>
     <p>.</p>
-    <p>.</p>
-    <p>This overblown sign of affection was probably over the top and should not be misconstrued, so I shall now ruin it by asking for a blowjob</p>
-    <p>.</p>
+    <p>It kind of goes on a bit really</p>
     <p>.</p>
     <p>.</p>
-    <p>Marta I think you're great xxxx</p>
+    <p>MEGA BADGER WARS HUZZAH!</p>
+    <p></p>
 </React.Fragment>;
 
 
