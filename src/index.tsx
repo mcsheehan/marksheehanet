@@ -17,7 +17,7 @@ const StyledContainer = styled.div`
 const Nav = () => (
     <div className="Header">
         <Link to="/opening">Launch</Link> &nbsp;
-        <Link to="/pokemon/">Pokemon</Link>
+        <a href="/pokemon"> Pokemon</a>
     </div>
 );
 
