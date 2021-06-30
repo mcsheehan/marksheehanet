@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@arwes/arwes": "1.0.0-alpha.8",
+    "@arwes/design": "^1.0.0-alpha.19",
+    "@arwes/sounds": "1.0.0-alpha.1",
+    "@auth0/auth0-react": "^1.5.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@reach/router": "1.2.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -11,15 +18,14 @@
     "@types/react": "^16.9.48",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
-    "@arwes/arwes": "1.0.0-alpha.8",
-    "@arwes/sounds": "1.0.0-alpha.1",
-    "@reach/router": "1.2.1",
+    "font-awesome": "^4.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.3",
-    "typescript": "^3.7.5",
-    "styled-components": "4.0.3"
+    "styled-components": "4.0.3",
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "react-scripts start",

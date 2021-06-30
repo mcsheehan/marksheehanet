@@ -4,15 +4,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import styled from 'styled-components';
-import { ThemeProvider, createTheme, Arwes } from '@arwes/arwes';
-import { SoundsProvider, createSounds } from '@arwes/sounds';
 
 import Opening from "./pages/Opening/Opening";
+import Profile from "./UserCardPage";
+import LoginButton from "./Login";
+import {Auth0Provider, useAuth0} from "@auth0/auth0-react";
+import LogoutButton from "./LogoutButton";
 
-const StyledContainer = styled.div`
-  margin: 30px;
-`;
 
 const Nav = () => (
     <div className="Header">
@@ -57,11 +55,21 @@ const sounds = {
     },
 };
 
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Auth0Provider
+        domain="stackbadger.eu.auth0.com"
+        clientId="i0Onk6akxJC3mY7rxwJE23VQbr9lMNoP"
+        redirectUri={window.location.origin}
+    >
+
+        {/*<App />*/}
+        <Profile/>
+        <LoginButton/>
+        <LogoutButton/>
+
+    </Auth0Provider>,
+    document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
