@@ -10,7 +10,7 @@ import Profile from "./UserCardPage";
 import LoginButton from "./Login";
 import {Auth0Provider, useAuth0} from "@auth0/auth0-react";
 import LogoutButton from "./LogoutButton";
-
+import ExtraButton from "./ExtraButton";
 
 const Nav = () => (
     <div className="Header">
@@ -67,6 +67,7 @@ ReactDOM.render(
         <Profile/>
         <LoginButton/>
         <LogoutButton/>
+        <ExtraButton/>
 
     </Auth0Provider>,
     document.getElementById("root")
