@@ -30,6 +30,8 @@ const Profile = () => {
                 <img src={user.picture} alt={user.name}/>
                 <h2>{user.name}</h2>
                 <p>{user.email}</p>
+                <p>{user.gender}</p>
+                <p>{user.address}</p>
                 <FontAwesome
                     className='super-crazy-colors'
                     name='rocket'
