@@ -11,6 +11,18 @@
     font-size: 18px;
 }
 
+.centre {
+    display: flex;
+    horiz-align: center;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    /*height: 200px;*/
+    text-align: center;
+    border: 3px solid green;
+    margin: 30px auto auto;
+}
+
 .button {
     border: none;
     outline: 0;

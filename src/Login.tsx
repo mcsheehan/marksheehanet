@@ -5,7 +5,7 @@ import './css/UserCard.css'
 const LoginButton = () => {
     const {isAuthenticated, loginWithRedirect } = useAuth0();
 
-    return !isAuthenticated && <button className={"button"} onClick={() => loginWithRedirect()}>Log In</button>;
+    return !isAuthenticated && <button className={"button centre"} onClick={() => loginWithRedirect()}>Log In</button>;
 };
 
 

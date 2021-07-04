@@ -7,7 +7,7 @@ const
 
     return (
         isAuthenticated &&
-        <button className={"button"}  onClick={() => logout({ returnTo: window.location.origin })}>
+        <button className={"button centre"}  onClick={() => logout({ returnTo: window.location.origin })}>
     Log Out
     </button>
 );
