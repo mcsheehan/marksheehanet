@@ -16,3 +16,7 @@ workflows:
                 to: s3://marksheehan.net
                 arguments: --recursive
           context: aws-deployment
+          filters:
+            branches:
+              only:
+                - master
